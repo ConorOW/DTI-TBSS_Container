@@ -1,5 +1,7 @@
 # DTI Preprocessing & TBSS Container
 
+## (This page is no longer maintained and the links to singularity images are empty)
+
 ## Introduction 
 This document lays out the steps necessary to run a basic ENIGMA-DTI TBSS pipeline, running preprocessing, tensor fitting and tract-based spatial statistics. This is done using 4 shell scripts and a Singularity image. The final step will copy all of the TBSS metrics for each subject to a central folder `USC_FINAL` which can be shared with USC, along with the covariates file which you should fill out. This is not official ENIGMA- just my own project. Please contact me at my USC email if you want to run the pipeline so I can set up the Singularity image for you.
 
